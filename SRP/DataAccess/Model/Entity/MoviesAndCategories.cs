@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace DataAccess.Model.Entity
 {
-    public class MoviesAndCategories
+    public class MoviesAndCategories:BaseEntity
     {
+        public int MovieId { get; set; }
+        public int CategoryId { get; set; }
+
+        public Movie Movies { get; set; }
+        public Category Categories { get; set; }
     }
 }
