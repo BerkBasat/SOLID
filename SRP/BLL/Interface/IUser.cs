@@ -9,7 +9,7 @@ namespace BLL.Interface
 {
     public interface IUser<T> where T : BaseEntity
     {
-        string Comment(Comment comment);
+        string AddComment(Comment comment);
 
         List<T> GetList();
     }
