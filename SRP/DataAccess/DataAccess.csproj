@@ -52,7 +52,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Model\Context\IMDBContext.cs" />
+    <Compile Include="Model\Entity\BaseEntity.cs" />
+    <Compile Include="Model\Entity\Category.cs" />
+    <Compile Include="Model\Entity\Comment.cs" />
     <Compile Include="Model\Entity\Movie.cs" />
+    <Compile Include="Model\Entity\MoviesAndCategories.cs" />
+    <Compile Include="Model\Entity\User.cs" />
+    <Compile Include="Model\Entity\UserComments.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />
