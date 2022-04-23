@@ -16,7 +16,7 @@ namespace Single_Responsibility
         }
 
 
-        public bool InsertEmployee(User user)
+        public bool Register(User user)
         {
             StringBuilder sb = new StringBuilder();
             try
