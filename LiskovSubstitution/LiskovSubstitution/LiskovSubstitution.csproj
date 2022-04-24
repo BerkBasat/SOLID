@@ -44,8 +44,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BaseSubscriber.cs" />
+    <Compile Include="PremiumSubscriber.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StandardSubscriber.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

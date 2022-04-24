@@ -14,17 +14,17 @@ namespace LiskovSubstitution
 
         public virtual void GiveAccessToFamilyMembers()
         {
-            Console.WriteLine("Access granted to family members");
+            Console.WriteLine("Hesap paylaşımı tamamlandı!");
         }
 
         public virtual void AccessToLimitedTitles()
         {
-            Console.WriteLine("Access to limited titles granted");
+            Console.WriteLine("Ücretsiz içeriklere erişim izni verilmiştir!");
         }
 
-        public virtual void AccessToUnlimitedContent()
+        public virtual void AccessToPremiumContent()
         {
-            Console.WriteLine("Access to unlimited content");
+            Console.WriteLine("Ücretli içeriklere erişim izni verilmiştir!");
         }
     }
 }
