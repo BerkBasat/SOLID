@@ -1,1 +1,1 @@
-# SOLID
+# Examples of solid principles
