@@ -8,19 +8,14 @@ namespace LiskovSubstitution
 {
     public class PremiumSubscriber:BaseSubscriber
     {
-        public override void GiveAccessToFamilyMembers()
+        public void GiveAccessToFamilyMembers()
         {
-            base.GiveAccessToFamilyMembers();
+            Console.WriteLine("Hesap paylaşımı tamamlandı!");
         }
 
-        public override void AccessToLimitedTitles()
+        public void AccessToPremiumContent()
         {
-            base.AccessToLimitedTitles();
-        }
-
-        public override void AccessToPremiumContent()
-        {
-            base.AccessToPremiumContent();
+            Console.WriteLine("Ücretli içeriklere erişim izni verilmiştir!");
         }
     }
 }

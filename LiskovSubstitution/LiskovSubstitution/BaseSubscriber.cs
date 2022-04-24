@@ -12,19 +12,5 @@ namespace LiskovSubstitution
         public string Password { get; set; }
         public string Email { get; set; }
 
-        public virtual void GiveAccessToFamilyMembers()
-        {
-            Console.WriteLine("Hesap paylaşımı tamamlandı!");
-        }
-
-        public virtual void AccessToLimitedTitles()
-        {
-            Console.WriteLine("Ücretsiz içeriklere erişim izni verilmiştir!");
-        }
-
-        public virtual void AccessToPremiumContent()
-        {
-            Console.WriteLine("Ücretli içeriklere erişim izni verilmiştir!");
-        }
     }
 }
